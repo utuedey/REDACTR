@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>REDACTR - Content Scrambler</title>
+    <link href="./index.css" rel="stylesheet">
+</head>
+<body>
+    <h1>REDACTR - Content Scrambler</h1>
+    <form>
+        <label for="content">Enter your content:</label>
+        <textarea id="content" rows="4" cols="50"></textarea><br>
+
+        <label for="words">Words to scramble (separated by space):</label>
+        <input type="text" id="words"><br>
+
+        <button type="button" onclick="scrambleContent()">Scramble</button>
+    </form>
+
+    <div id="scrambledContent"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
